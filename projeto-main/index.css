@@ -1,0 +1,91 @@
+:root{
+    --pricipal: black;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+
+
+}
+
+img#hero {
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+h1#hero {
+    font-style: italic;
+    color: white;
+    font-family: "silkscreen", cursive;
+}
+
+h2 {
+    color: white;
+}
+
+nav {
+    background-color: blue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+
+}
+
+li a {
+    font-family: Silkscreen, cursive;
+    font-size: 20px;
+    text-decoration: nome;
+    color: white;
+    width: 100%;
+
+}
+
+li a:hover {
+    color: black;
+}
+main{
+    
+    background-color: black;
+    align-items: top;
+}
+img#hero2{
+    width: 600px;
+    margin: 0px 0px 0px 0px;
+    
+
+}
+h3{
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: blue;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: black
+    }
+  }
